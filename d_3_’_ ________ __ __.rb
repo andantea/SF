@@ -10,6 +10,6 @@ class Box
     end
     
     def press_btn
-        @LED.flash(delay_sec: -1)
+        @LED.flash(at: Time.now - 1)
     end
 end
